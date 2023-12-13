@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="33288302-ffb7-4a14-91a4-d3ed8fa88c61" name="spring">
+        <fileTransfer rootFolder="/var/www/api-server-spring-boot-jdbc" accessType="SFTP" host="52.78.115.77" port="22" sshConfigId="2876a736-6242-40c9-b83b-98808e4c49f2" sshConfig="ubuntu@52.78.115.77:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

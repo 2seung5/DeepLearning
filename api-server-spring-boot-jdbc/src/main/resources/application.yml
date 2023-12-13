@@ -1,0 +1,18 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: demo
+
+  datasource:
+
+    url: jdbc:mysql://springdb3.cem0l9empfvr.ap-northeast-2.rds.amazonaws.com/springdb?autoReconnect=true # 변경해주세요
+    username: admin # 변경해주세요
+    password: qwqw1212 # 변경해주세요
+    driver-class-name: com.mysql.cj.jdbc.Driver # mysql 8버전
+    # driver-class-name: com.mysql.jdbc.Driver # mysql 5버전
+  sql:
+    init:
+      platform: mysql
+
